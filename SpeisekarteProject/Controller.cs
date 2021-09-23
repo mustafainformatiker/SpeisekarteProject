@@ -20,15 +20,15 @@ namespace SpeisekarteProject
 
         public void AddGericht<T>(string table, T gerichtRecord)
         {
-            var collection = db.GetCollection<T>(table);
-            collection.InsertOne(gerichtRecord);
-        }
-
-        public List<T> selectAlleGerichte<T>(string table)
-        {
-            var collection = db.GetCollection<T>(table);
-            
-            return collection.Find(new BsonDocument()).ToList();
+            try
+            {
+                var collection = db.GetCollection<T>(table);
+                collection.InsertOne(gerichtRecord);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

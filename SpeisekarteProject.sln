@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeisekarteProject", "SpeisekarteProject\SpeisekarteProject.csproj", "{84E4EF88-AE90-4622-A0E5-4975371270D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeisekarteAPI", "SpeisekarteAPI\SpeisekarteAPI.csproj", "{54F3B186-F0F4-4E6B-A6C1-CF6184A00FF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{84E4EF88-AE90-4622-A0E5-4975371270D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84E4EF88-AE90-4622-A0E5-4975371270D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84E4EF88-AE90-4622-A0E5-4975371270D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F3B186-F0F4-4E6B-A6C1-CF6184A00FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F3B186-F0F4-4E6B-A6C1-CF6184A00FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F3B186-F0F4-4E6B-A6C1-CF6184A00FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F3B186-F0F4-4E6B-A6C1-CF6184A00FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
